@@ -1,0 +1,43 @@
+.about-page {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); 
+    min-height: 100vh; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.about-page .container {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.about-page h1,
+.about-page h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.about-page ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-page ul li {
+    margin-bottom: 10px;
+}
+
+
+.about-page a {
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+.about-page a:hover {
+    text-decoration: underline;
+}

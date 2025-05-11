@@ -1,0 +1,23 @@
+
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  
+  .dark .navbar {
+    background-color: #1c1c1c !important;
+  }
+  
+  .dark .navbar .nav-link,
+  .dark .navbar .navbar-brand {
+    color: #ffffff !important;
+  }
+  
+  .dark .dropdown-menu {
+    background-color: #2a2a2a;
+  }
+  
+  .dark .dropdown-item {
+    color: #ffffff;
+  }
+  
