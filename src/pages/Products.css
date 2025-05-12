@@ -42,6 +42,8 @@
 .products-page .col-md-4 .card {
     border: none;
     border-radius: 15px;
+     width: 100%; /* E bën kartën të zërë gjithë hapësirën e kolonës */
+    max-width: 300px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
